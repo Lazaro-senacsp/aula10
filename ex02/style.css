@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+    color:black
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 26px;
+}
+/* A lista que vamos percorrer (mostrada no topo) */
+
+    .lista-original{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .caixa{
+        background-color: aqua;
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px auto;
+        max-width: 400px;
+    }
+    .caixa h2{
+        font-size: 18px;
+        color:rgb(red, green, blue);
+    }
+    /*lista de nomes dentro da caixa */
+    ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;       
+    }
+    li{
+        padding: 4px;
+    }
